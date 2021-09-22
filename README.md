@@ -2,6 +2,7 @@
 ETL data penerbangan menggunakan `Postgres - Airflow - Hadoop`
 
 ### Requirement
+- Docker
 - Spark / Pyspark
 
 ### How to run
