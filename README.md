@@ -1,5 +1,5 @@
 ## ETL End-To-End
-ETL data penerbangan menggunakan `Postgres - Airflow - Hadoop`
+ETL dataset keterlambatan penerbangan menggunakan `Postgres - Airflow - Hadoop`
 
 ### Requirement
 - Docker
@@ -9,6 +9,9 @@ ETL data penerbangan menggunakan `Postgres - Airflow - Hadoop`
 - Airflow initiation : `docker-compose up airflow-init`
 - Run : `docker-compose up`
 - Destroy : `docker-compose down`
+
+### Explanation
+ETL untuk mengolah data keterlambatan penerbangan. Menggunakan **Airflow** untuk melakukan otomatisasi ETL Script, ETL script dibuat dengan bahasa pemrograman **Python**, dan **Hadoop** digunakan untuk menyimpan hasil data yang telah diolah. 
 
 ETL belum selesai, masih terdapat error yang belum bisa saya selesaikan
 
