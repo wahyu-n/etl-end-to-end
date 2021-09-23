@@ -11,7 +11,7 @@ ETL dataset keterlambatan penerbangan menggunakan `Postgres - Airflow - Hadoop`
 - Destroy : `docker-compose down`
 
 ### Explanation
-ETL untuk mengolah data keterlambatan penerbangan. Menggunakan **Airflow** untuk melakukan otomatisasi ETL Script, ETL script dibuat dengan bahasa pemrograman **Python**, **Spark digunakan untuk meng-ekstrak data dan menulis ke database, dan **Hadoop** digunakan untuk menyimpan hasil data yang telah diolah. 
+ETL untuk mengolah data keterlambatan penerbangan. Menggunakan **Airflow** untuk melakukan otomatisasi ETL Script, ETL script dibuat dengan bahasa pemrograman **Python**, **Spark** digunakan untuk meng-ekstrak data dan menulis ke database, dan **Hadoop** digunakan untuk menyimpan hasil data yang telah diolah. 
 
 ETL belum selesai, masih terdapat error yang belum bisa saya selesaikan
 
